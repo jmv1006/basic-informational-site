@@ -4,7 +4,7 @@ const path = require('path');
 const axios = require('axios')
 const url = require('url')
 
-const port = process.env.PORT || 5000;
+//const port = process.env.PORT || 5000;
 
 const filePath = (path.join(__dirname, 'public', 'index.html'))
 
@@ -21,8 +21,6 @@ const server = http.createServer((req, res) => {
     });
 });
 */
-
-const myUrl = new URL('localhost:5000')
 
 
 const server = http.createServer((req, res) => {
@@ -64,6 +62,8 @@ const server = http.createServer((req, res) => {
     };
 });
 
+/*
 server.listen(port, () => {
     console.log(`Server running on port ${port}`);
 });
+*/
