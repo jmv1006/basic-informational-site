@@ -1,0 +1,17 @@
+{
+  "name": "basic-informational-site",
+  "version": "1.0.0",
+  "description": "a basic informational site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Andrade Valenzuela",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
